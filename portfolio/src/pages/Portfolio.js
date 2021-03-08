@@ -1,6 +1,5 @@
 import React from "react";
 import 'materialize-css';
-import { Navbar } from "react-materialize";
 
 function Portfolio() {
   return (

@@ -1,13 +1,22 @@
 import React from "react";
-import { Link, Route } from "react-router-dom";
 //Materialize
 import 'materialize-css';
-import { Button, Card, Row, Col } from 'react-materialize';
+//css
+import './Footer.css'
 
 const Footer = () => (
   <div className="footer">
-    <p>© 2021 Copyright Aaron Platt</p>
+    <footer className="page-footer">
+          <div className="container-fluid">
+            <div className="footer-copyright">
+              <div className="container">
+              © 2021 Copyright Aaron Platt
+              </div>
+            </div>
+          </div>
+    </footer>
   </div>
+  
 );
 
 export default Footer;

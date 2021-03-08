@@ -1,25 +1,28 @@
 import './App.css';
-//link to the main control file
-import { BrowserRouter, Switch, Router, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+
 import About from './pages/About';
 import Home from './pages/Home';
 import NavTabs from './components/NavTabs'
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
+      <NavTabs></NavTabs>
       <BrowserRouter>
-        <NavTabs></NavTabs>
-        <Switch>
-          <Route exact path="/" component={Home}></Route>
-          <Route exact path="/about" component={About}></Route>
-          <Route exact path="/about" component={Portfolio}></Route>
-          <Route exact path="/about" component={Contact}></Route>
-        </Switch>
-
+        <div>
+          <Switch>
+            <Route exact path="/" component={Home}></Route>
+            <Route exact path="/Portfolio" component={Portfolio}></Route>
+            <Route exact path="/About" component={About}></Route>
+            <Route exact path="/Contact" component={Contact}></Route>
+          </Switch>
+        </div>
       </BrowserRouter>
+      <Footer></Footer>
     </div>
   );
 }
