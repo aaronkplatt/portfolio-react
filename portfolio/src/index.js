@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-//Need to install materialize 
+//materialize 
 import 'materialize-css';
 
 

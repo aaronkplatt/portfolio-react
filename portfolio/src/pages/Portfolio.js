@@ -1,5 +1,6 @@
 import React from "react";
 import 'materialize-css';
+import './style/Portfolio.css';
 
 function Portfolio() {
   return (

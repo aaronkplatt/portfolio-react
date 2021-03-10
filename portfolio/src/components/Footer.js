@@ -2,7 +2,7 @@ import React from "react";
 //Materialize
 import 'materialize-css';
 //css
-import './Footer.css'
+import './style/Footer.css'
 
 const Footer = () => (
   <div className="footer">
