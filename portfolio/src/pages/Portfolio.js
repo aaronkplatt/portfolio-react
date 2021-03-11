@@ -1,10 +1,19 @@
 import React from "react";
 import 'materialize-css';
 import './style/Portfolio.css';
+// Images
+import Budget from "./images/budget.PNG";
+import Burger from "./images/burger.PNG";
+import CobraArcade from "./images/cobraArcade.PNG";
+import Tracker from "./images/employeeTracker.PNG";
+import LocalCoffeeShop from "./images/LocalCoffeeShop.PNG"
+import Nomad from "./images/Nomad.PNG";
+import Surf from "./images/surf.PNG";
+import Team from "./images/TeamProfile.PNG"
 
 function Portfolio() {
   return (
-    <div>
+    <div className="content">
       {/* Header */}
       <div className="row">
         <h1>Portfolio</h1>
@@ -12,150 +21,151 @@ function Portfolio() {
 
       {/* ROW OF first 4 CARDs*/}
       <div className="row">
+        {/* LOCAL COFFEE SHOP LOCATOR */}
         {/* CARD 1 */}
         <div className="col s3">
           <div className="card">
-            <h4 className="card-title">Project 1</h4>
+            <h4 className="card-title">Local Coffee Shop Locator</h4>
             <div className="card-image">
-              <img src="..." alt="project"/>
+              <img src={LocalCoffeeShop} alt="project"/>
             </div>
             <div className="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p>about</p>
+              <p>Tools/Languages: </p>
             </div>
             <div className="card-action">
-              <a href="#" className="links">Deployed</a>
+              <a href="https://aaronkplatt.github.io/localCoffeeShops.github.io/" className="links">Deployed</a>
               <hr />
-              <a href="#" className="links">Repository</a>
+              <a href="https://github.com/aaronkplatt/localCoffeeShops.github.io" className="links">Repository</a>
             </div>
           </div>
         </div>
-        {/* Card 2 */}
+        {/* COBRA ARCADE CARD 2*/}
         <div className="col s3">
           <div className="card">
-            <h4 className="card-title">Project 2</h4>
+            <h4 className="card-title">Cobra Arcade</h4>
             <div className="card-image">
-              <img src="..." alt="project"/>
+              <img src={CobraArcade} alt="project"/>
             </div>
             <div className="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p>about</p>
+              <p>Tools/Languages: </p>
             </div>
             <div className="card-action">
-              <a href="#" className="links">Deployed</a>
+              <a href="https://cobra-arcade.herokuapp.com/" className="links">Deployed</a>
               <hr />
-              <a href="#" className="links">Repository</a>
+              <a href="https://github.com/aaronkplatt/project-2.github.io" className="links">Repository</a>
             </div>
           </div>
         </div>
-        {/* CARD 3 */}
+        {/* EAT-DA-Burger CARD 3 */}
         <div className="col s3">
           <div className="card">
-            <h4 className="card-title">Project 3</h4>
+            <h4 className="card-title">EAT-DA-BURGER</h4>
             <div className="card-image">
-              <img src="..." alt="project"/>
+              <img src={Burger} alt="project"/>
             </div>
             <div className="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p>about</p>
+              <p>Tools/Languages: </p>
             </div>
             <div className="card-action">
-              <a href="#" className="links">Deployed</a>
+              <a href="https://aqueous-lowlands-03560.herokuapp.com/" className="links">Deployed</a>
               <hr />
-              <a href="#" className="links">Repository</a>
+              <a href="https://github.com/aaronkplatt/aaronkplatt-eat-da-burger.github.io" className="links">Repository</a>
             </div>
           </div>
         </div>
-        {/* CARD 4 */}
+        {/* Offline/ online budget tracker CARD 4 */}
         <div className="col s3">
           <div className="card">
-            <h4 className="card-title">Project 4</h4>
+            <h4 className="card-title">OFFLINE/ONLINE BUDGET TRACKER</h4>
             <div className="card-image">
-              <img src="..." alt="project"/>
+              <img src={Budget} alt="project"/>
             </div>
             <div className="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p>about</p>
+              <p>Tools/Languages: </p>
             </div>
             <div className="card-action">
-              <a href="#" className="links">Deployed</a>
+              <a href="https://secret-mesa-51518.herokuapp.com/" className="links">Deployed</a>
               <hr />
-              <a href="#" className="links">Repository</a>
+              <a href="https://github.com/aaronkplatt/aaronkplatt-OnlineOfflineBudgetTrackers.github.io" className="links">Repository</a>
             </div>
           </div>
         </div>
         
         {/* ROW 2 */}
         <div className="row">
-          {/* CARD 5 */}
+          {/* NOMAD WILDERNESS CARD 5 */}
           <div className="col s3">
             <div className="card">
-              <h4 className="card-title">Project 5</h4>
+              <h4 className="card-title">NOMAD WILDERNESS</h4>
               <div className="card-image">
-                <img src="..." alt="project"/>
+                <img src={Nomad} alt="project"/>
               </div>
               <div className="card-content">
-                <p>I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.</p>
+                <p>about</p>
+                <p>Tools/Languages: </p>
               </div>
               <div className="card-action">
-                <a href="#" className="links">Deployed</a>
+                <a href="https://wilderness-survival-app.herokuapp.com/" className="links">Deployed</a>
                 <hr />
-                <a href="#" className="links">Repository</a>
+                <a href="https://github.com/Rogers-Development-Services/Wilderness-Survival-App" className="links">Repository</a>
               </div>
             </div>
           </div>
-          {/* Card 6 */}
+          {/* EMPLOYEE TRACKER Card 6 */}
           <div className="col s3">
             <div className="card">
-              <h4 className="card-title">Project 6</h4>
+              <h4 className="card-title">EMPLOYEE TRACKER</h4>
               <div className="card-image">
-                <img src="..." alt="project"/>
+                <img className="images" src={Tracker} alt="project"/>
               </div>
               <div className="card-content">
-                <p>I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.</p>
+                <p>about</p>
+                <p>Tools/Languages: </p>
               </div>
               <div className="card-action">
-                <a href="#" className="links">Deployed</a>
+                <a href="https://drive.google.com/file/d/1ppeBnbjkY_epYlC1hB-2iYA-XoQIO2-Z/view" className="links">Demonstration</a>
                 <hr />
-                <a href="#" className="links">Repository</a>
+                <a href="https://github.com/aaronkplatt/aaronkplatt-employee-tracker.github.io" className="links">Repository</a>
               </div>
             </div>
           </div>
-          {/* CARD 7 */}
+          {/* Team profile generator CARD 7 */}
           <div className="col s3">
             <div className="card">
-              <h4 className="card-title">Project 7</h4>
+              <h4 className="card-title">TEAM PROFILE GENORATOR</h4>
               <div className="card-image">
-                <img src="..." alt="project"/>
+                <img className="images" src={Team} alt="project"/>
               </div>
               <div className="card-content">
-                <p>I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.</p>
+                <p>about </p>
+                <p>Tools/Languages: </p>
               </div>
               <div className="card-action">
-                <a href="#" className="links">Deployed</a>
+                <a href="https://drive.google.com/file/d/1PDKzvC07KJxXtkX728syMr-CCYOq4Ht0/view" className="links">Demonstration</a>
                 <hr />
-                <a href="#" className="links">Repository</a>
+                <a href="https://github.com/aaronkplatt/aaronkplatt-TeamProfileGenerator.github.io" className="links">Repository</a>
               </div>
             </div>
           </div>
-          {/* CARD 8 */}
+          {/* SUNSHINE SURFCLUB CARD 8 */}
           <div className="col s3">
             <div className="card">
-              <h4 className="card-title">Project 8</h4>
+              <h4 className="card-title">SUNSHINE SURFCLUB</h4>
               <div className="card-image">
-                <img src="..." alt="project"/>
+                <img src={Surf} alt="project"/>
               </div>
               <div className="card-content">
-                <p>I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.</p>
+                <p>about</p>
+                <p>Tools/Languages: </p>
               </div>
               <div className="card-action">
-                <a href="#" className="links">Deployed</a>
+                <a href="http://www.sunshine-surfclub.com/" className="links">Deployed</a>
                 <hr />
-                <a href="#" className="links">Repository</a>
+                <a href="https://github.com/aaronkplatt/sunshineSurfClub.github.io" className="links">Repository</a>
               </div>
             </div>
           </div>

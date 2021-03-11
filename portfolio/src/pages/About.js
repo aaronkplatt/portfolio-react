@@ -4,13 +4,23 @@ import './style/About.css'
 
 function About() {
   return (
-    <div>
+    <div className="content">
       {/* ABOUT ME */}
       <div className="row">
         <h1>About Me</h1>
         <p className="col s4 offset-s4">
           I'm currently a vidiogropher for professional skateboarding but am looking at getting into the front end and/or back end of web development. My favorite feeling is when a problem gets fixed which took effort and time to fix.
         </p>
+        {/* RESUME LINKs */}
+        <div className="row">
+          <div className="col s4 offset-s4">
+            <a className="personalLink" href="https://drive.google.com/file/d/1DEONHnCfec0uyCn1ZC9pRInYITlsTfqk/view?usp=sharing">RESUME</a>
+            <br />
+            <a className="personalLink" href="https://github.com/aaronkplatt">GITHUB</a>
+            <br />
+            <a className="personalLink" href="https://www.linkedin.com/in/aaron-platt-90808116a/">LINKEDIN</a>
+          </div>
+        </div>
       </div>
       <div className="row">
         {/* EDUCATION */}

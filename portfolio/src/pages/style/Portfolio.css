@@ -1,3 +1,28 @@
+.card {
+    height: 500px;
+}
+.card-title {
+    height:40px;
+}
+.card-image {
+    height: 125px;
+    position: relative !important;
+}
+.images{
+    max-height: 230px;
+    min-height: 125px;
+}
+.card-content {
+    margin-top: 80px
+}
 .links {
-    text-align: left;
+    margin: 0 !important;
+}
+
+
+.page-footer{
+    position: sticky;
+} 
+html {
+    height:100%
 }
