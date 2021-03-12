@@ -1,0 +1,9 @@
+.thankyou_message {
+    display: none;
+}
+
+.message {
+    height: 150px;
+    width: 100% !important;
+    align-content: center;
+}

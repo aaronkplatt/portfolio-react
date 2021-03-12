@@ -21,8 +21,8 @@ function Portfolio() {
 
       {/* ROW OF first 4 CARDs*/}
       <div className="row">
-        {/* LOCAL COFFEE SHOP LOCATOR */}
-        {/* CARD 1 */}
+
+        {/* LOCAL COFFEE SHOP LOCATOR card 1*/}
         <div className="col s3">
           <div className="card">
             <h4 className="card-title">Local Coffee Shop Locator</h4>
@@ -40,6 +40,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
+
         {/* COBRA ARCADE CARD 2*/}
         <div className="col s3">
           <div className="card">
@@ -58,6 +59,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
+
         {/* EAT-DA-Burger CARD 3 */}
         <div className="col s3">
           <div className="card">
@@ -76,6 +78,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
+
         {/* Offline/ online budget tracker CARD 4 */}
         <div className="col s3">
           <div className="card">
@@ -97,6 +100,7 @@ function Portfolio() {
         
         {/* ROW 2 */}
         <div className="row">
+
           {/* NOMAD WILDERNESS CARD 5 */}
           <div className="col s3">
             <div className="card">
@@ -115,6 +119,7 @@ function Portfolio() {
               </div>
             </div>
           </div>
+
           {/* EMPLOYEE TRACKER Card 6 */}
           <div className="col s3">
             <div className="card">
@@ -133,6 +138,7 @@ function Portfolio() {
               </div>
             </div>
           </div>
+
           {/* Team profile generator CARD 7 */}
           <div className="col s3">
             <div className="card">
@@ -151,6 +157,7 @@ function Portfolio() {
               </div>
             </div>
           </div>
+
           {/* SUNSHINE SURFCLUB CARD 8 */}
           <div className="col s3">
             <div className="card">
@@ -169,6 +176,7 @@ function Portfolio() {
               </div>
             </div>
           </div>
+          
         </div>
       </div>
     </div>

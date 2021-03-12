@@ -5,12 +5,14 @@ import './style/About.css'
 function About() {
   return (
     <div className="content">
+
       {/* ABOUT ME */}
       <div className="row">
         <h1>About Me</h1>
         <p className="col s4 offset-s4">
           I'm currently a vidiogropher for professional skateboarding but am looking at getting into the front end and/or back end of web development. My favorite feeling is when a problem gets fixed which took effort and time to fix.
         </p>
+
         {/* RESUME LINKs */}
         <div className="row">
           <div className="col s4 offset-s4">
@@ -22,8 +24,9 @@ function About() {
           </div>
         </div>
       </div>
+
+      {/* EDUCATION */}
       <div className="row">
-        {/* EDUCATION */}
         <div className="col s3 offset-s1">
             <h4>EDUCATION</h4>
           <div className="row">
@@ -37,6 +40,7 @@ function About() {
             <p>Learned how to code back end and front end applications with several other usefull tools. NEED MORE</p>
           </div>
         </div>
+
         {/* CONTACT */}
         <div className="col s4">
           <h4>CONTACT DETAILS</h4>
@@ -46,6 +50,7 @@ function About() {
           <p>858-752-7917</p>
           <p>aaron.k.platt@gmail.com</p>
         </div>
+
         {/* WORK */}
         <div className="col s3">
           <h4>WORK</h4>
@@ -60,6 +65,7 @@ function About() {
             <p>A physical labor job to set up stages, lighting and catering for big events. Needed to take leadership at points depending the job. Worked in a wearhouse shipping things in trucks.</p>
           </div>
         </div>
+        
       </div>
     </div>
   );
