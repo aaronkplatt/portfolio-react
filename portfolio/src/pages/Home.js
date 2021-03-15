@@ -18,7 +18,7 @@ function Home() {
       {/* ABOUT ME */}
       <div className="row">
         <p className="col s4 offset-s4">
-          I'm a San Diego based Web Developer. Currently a motivated web development student at UCSD. Experienced with project management, strong team skills, creative designing, and excellent written and verbal communication. I'm currently looking for a full-time job in San Diego, CA.
+          Logical and results-driven Web Developer dedicated to building and optimizing user-focused websites for customers with various business objectives. Judicious and creative when crafting effective websites, apps and platforms to propel competitive advantage and revenue growth. Technically proficient and analytical problem solver with calm and focused demeanor.
         </p>
       </div>
 
@@ -40,11 +40,14 @@ function Home() {
           <ul>
             <li>HTML</li>
             <li>CSS</li>
+            <li>Javascript/jQuery</li>
+            <li>Ajax</li>
+            <li>Vue.js</li>
             <li>REACTJS</li>
             <li>NODEJS</li>
-            <li>MYSQL</li>
+            <li>SQL</li>
             <li>MONGODB</li>
-            <li>NODEJS</li>
+            <li>Express Web Server</li>
             <li>FULLSTACK</li>
           </ul>
         </div>

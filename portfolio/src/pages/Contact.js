@@ -148,7 +148,7 @@ function Contact() {
           {/* Thank you message */}
           <div className="thankyou_message">
             <h4>
-              <em>Thanks</em> for contacting me! I'll will get back to you soon!
+              <em>Thanks</em> for contacting me! I'll get back to you soon!
             </h4>
           </div>
         </div>
