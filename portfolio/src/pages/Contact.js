@@ -2,6 +2,7 @@ import React from "react";
 import 'materialize-css';
 import './style/Contact.css';
 
+
 //JAVASCRIPT FOR CONTACT ME close for cleaner code
 (function() {
   // get all data in form and return object

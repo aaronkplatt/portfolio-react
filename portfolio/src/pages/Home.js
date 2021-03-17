@@ -1,6 +1,7 @@
 import React from "react";
 import 'materialize-css';
-import "./style/Home.css"
+import "./style/Home.css";
+
 
 function Home() {
   return (
@@ -52,7 +53,6 @@ function Home() {
           </ul>
         </div>
       </div>
-      
     </div>
   );
 }

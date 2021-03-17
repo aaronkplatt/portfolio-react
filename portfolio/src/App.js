@@ -6,7 +6,7 @@ import Home from './pages/Home';
 import NavTabs from './components/NavTabs'
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 
 function App() {
   return (
@@ -22,7 +22,8 @@ function App() {
           </Switch>
         </div>
       </BrowserRouter>
-      <Footer></Footer>
+      {/* Relative footers now so we put them on the pages */}
+      {/* <Footer></Footer> */}
     </div>
   );
 }

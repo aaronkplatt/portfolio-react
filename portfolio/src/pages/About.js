@@ -1,6 +1,6 @@
 import React from "react";
 import 'materialize-css';
-import './style/About.css'
+import './style/About.css';
 
 function About() {
   return (
