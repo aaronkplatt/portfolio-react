@@ -1,5 +1,5 @@
 .card {
-    height: 500px;
+    height: auto;
 }
 .card-title {
     height:40px;
@@ -13,7 +13,8 @@
     min-height: 125px;
 }
 .card-content {
-    margin-top: 80px
+    margin-top: 80px;
+    height: auto;
 }
 .links {
     margin: 0 !important;
