@@ -1,9 +1,25 @@
 .thankyou_message {
     display: none;
+    color: black;
 }
 
 .message {
     height: 150px;
     width: 100% !important;
     align-content: center;
+    color: black;
+}
+
+.signUp-btn {
+    color: black;
+    background-color: #5EADC2;
+}
+
+.message {
+    color: black;
+}
+
+.form-control {
+    color: black;
+
 }

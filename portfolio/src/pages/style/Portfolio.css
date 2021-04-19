@@ -1,21 +1,28 @@
 .card {
-    height: auto;
+    min-height: 500px;
+    background-color:#334A51;
 }
 .card-title {
-    height:40px;
+    height: 40px;
+    color: white;
 }
 .card-image {
-    height: 125px;
+    height: 75px;
     position: relative !important;
 }
 .images{
-    max-height: 230px;
-    min-height: 125px;
+    height: 150px;
+    width: 100%;
 }
 .card-content {
-    margin-top: 80px;
-    height: auto;
+    margin-top: 70px;
+    color: white;
 }
+
+.card-action{
+    margin-bottom: 0px;
+}
+
 .links {
     margin: 0 !important;
 }
