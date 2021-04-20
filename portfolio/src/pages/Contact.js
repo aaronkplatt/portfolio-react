@@ -71,7 +71,7 @@ import './style/Contact.css';
     var url = form.action;
     var xhr = new XMLHttpRequest();
     xhr.open('POST', url);
-    // xhr.withCredentials = true;
+    //xhr.withCredentials = true;
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     xhr.onreadystatechange = function() {
         if (xhr.readyState === 4 && xhr.status === 200) {
@@ -114,45 +114,41 @@ import './style/Contact.css';
 //contact form 
 function Contact() {
   return (
-    <div>
+    <div className='row'>
       <h1>Contact Me</h1>
+
       {/* Form connected to the google scripts */}
       <form className="gform" method="POST" data-email="aaron.k.platt@gmail.com" action="https://script.google.com/macros/s/AKfycbwzAdU9nKS7FAE8yZ1sNi6OExC5G7rPmByGxTwB2ME-96Yk71EGB7er_PBvkzxfkoWEPA/exec">
+      <div className="card col s4 offset-s4">
 
         {/* form */}
         <div className="form-row">
 
           {/* NAME */}
-          <div className="row">
-            <div className="col s4 offset-s4">
-              <input type="text" className="form-control" name="Name" placeholder="Name"></input>
-            </div>
+          <div className="row forms">
+              <input type="text" className="form-control formed" name="Name" placeholder="Name"></input>
           </div>
 
           {/* Email */}
-          <div className="row">
-            <div className="col s4 offset-s4">
-              <input type="text" className="form-control" name="Email" placeholder="Email"></input>
-            </div>
+          <div className="row forms"> 
+              <input type="text" className="form-control formed" name="Email" placeholder="Email"></input>
           </div>
 
           {/* Message*/}
-          <div className="row">
-            <div className="col s4 offset-s4">
+          <div className="row forms">
               <textarea type="text" className="form-control message" name="Message" placeholder="Message"></textarea>
-            </div>
+              <button type="submit" className="signUp-btn">Submit</button>
           </div>
-
           {/* Submit */}
-          <button type="submit" className="signUp-btn">Submit</button>
 
-          {/* Thank you message */}
-          <div className="thankyou_message">
-            <h4>
-              <em>Thanks</em> for contacting me! I'll get back to you soon!
-            </h4>
-          </div>
         </div>
+      </div>
+          {/* Thank you message */}
+          <div className="col s10 offset-s1 thankyou_message">
+            <h3>
+              <em>Thanks</em> for contacting me! I'll get back to you soon!
+            </h3>
+          </div>
       </form>
     </div>
   );
