@@ -3,6 +3,10 @@
     color: #334A51;
 }
 
+.title{
+    font-weight: bold;
+}
+
 .message {
     height: 150px;
     width: 100% !important;
@@ -26,7 +30,7 @@
     border: 5px;
     border-radius: 15px;
     font-family:'Courier New', Courier, monospace;
-    font-weight: bold;
+    font-weight: bolder;
     
 }
 

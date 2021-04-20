@@ -1,17 +1,22 @@
 .card {
     min-height: 600px;
     background-color:#334A51;
+    margin: 20px
+}
+.title{
+    font-weight: bold;
 }
 .card-title {
     height: 40px;
+    padding-top: 10px;
     color: #96B0B7;
 }
 .card-image {
-    height: 75px;
+    height: 125px;
     position: relative !important;
 }
 .images{
-    height: 150px;
+    height: 200px;
     width: 100%;
 }
 .card-content {

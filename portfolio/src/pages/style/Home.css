@@ -26,13 +26,13 @@ li {
     padding-left: 30px;
     font-size: medium;
 }
-.card {
-    background-color: #5EADC2;
+.cards {
+    background-color: #334A51;
     height: 450px;
-}
-.outsideCard {
-    border: 5px;
+    margin-left: 10px;
+    border: 1px;
     border-radius: 15px;
+    align-content: center;
 }
 .links {
     padding-top: 0px;

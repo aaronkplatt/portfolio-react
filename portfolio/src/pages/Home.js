@@ -8,9 +8,9 @@ import resume from './documents/Aaron_Platt_Final_RESUME.pdf';
 function Home() {
   return (
     <div className="container-fluid">
-      <div className='row'>
         <h1 className="name">I'm Aaron Platt.</h1>
-        <div className="col s3 offset-s1 card outsideCard">
+      <div className='row'>
+        <div className="col s3 offset-s1 cards">
           {/* SKILLS */}
           <h3 className="cardHead">Skills</h3>
             <li>HTML</li>
@@ -36,7 +36,7 @@ function Home() {
         </div>
 
         {/* ABOUT ME */}
-        <div className="col s3 card outsideCard">
+        <div className="col s3 cards">
           <h3 className="cardHead">About Me</h3>
           <p className="bio">
             Logical and results-driven Web Developer dedicated to building and optimizing user-focused websites for customers with various business objectives. Judicious and creative when crafting effective websites, apps and platforms to propel competitive advantage and revenue growth. Technically proficient and analytical problem solver with calm and focused demeanor.

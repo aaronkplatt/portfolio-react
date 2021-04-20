@@ -115,7 +115,7 @@ import './style/Contact.css';
 function Contact() {
   return (
     <div className='row'>
-      <h1>Contact Me</h1>
+      <h1 className="title">Contact Me</h1>
 
       {/* Form connected to the google scripts */}
       <form className="gform" method="POST" data-email="aaron.k.platt@gmail.com" action="https://script.google.com/macros/s/AKfycbwzAdU9nKS7FAE8yZ1sNi6OExC5G7rPmByGxTwB2ME-96Yk71EGB7er_PBvkzxfkoWEPA/exec">
