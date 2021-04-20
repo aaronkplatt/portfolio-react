@@ -1,3 +1,22 @@
 .personalLink {
     font-size: larger;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #5EADC2;
+
+}
+.profilePic {
+    height: 350px;
+    position: relative !important;
+}
+
+.bio {
+    /* background-color: white; */
+}
+
+.card {
+    background-color: #5EADC2;
+    height: 375px;
+    
 }

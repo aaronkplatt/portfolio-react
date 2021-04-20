@@ -4,7 +4,7 @@
 }
 .card-title {
     height: 40px;
-    color: white;
+    color: #96B0B7;
 }
 .card-image {
     height: 75px;
@@ -16,7 +16,7 @@
 }
 .card-content {
     margin-top: 70px;
-    color: white;
+    color: #96B0B7;
 }
 
 .card-action{
