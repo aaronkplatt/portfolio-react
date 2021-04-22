@@ -4,3 +4,7 @@
 .nav-wrapper {
     background-color:#334A51;
 }
+.navBold {
+    font-weight: bold;
+    font-size: large;
+}

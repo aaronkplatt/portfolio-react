@@ -2,6 +2,11 @@
     display: none;
     color: #334A51;
 }
+.thankYouText {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px;
+}
 
 .title{
     font-weight: bold;

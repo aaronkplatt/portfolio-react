@@ -13,10 +13,10 @@ function About() {
         <div className='contactCard col s6 offset-s3'>
           <h3 className='title'>CONTACT DETAILS</h3>
           <p>Aaron Platt</p>
-          <p>3365 Rollsreach Dr.</p>
-          <p>San Diego California, 92111</p>
           <p>858-752-7917</p>
           <p>aaron.k.platt@gmail.com</p>
+          <p>3365 Rollsreach Dr.</p>
+          <p className="address">San Diego California, 92111</p>
         </div>
       </div>
         {/* RESUME LINKs */}
@@ -31,15 +31,14 @@ function About() {
         <div className='educationCard col s6 offset-s3'>
         <h3 className='title'>EDUCATION</h3>
           <div className="row">
-            <p className='title'>University High School</p>
-            <p>Highschool Deploma • June 2018</p>
-            <p>I took two computer science classes in highschool adn since then I was hooked. NEED MORE</p>
+            <p className='title'>UCSD Bootcamp</p>
+            <p>Web Development • December 2020</p>
+            <p className='text'>Learned front-end and back-end technologies through a dynamic curriculum, including HTML5, CSS3, JavaScript, jQuery, Express.js, React.js, Node.js, progressive web apps, agile methodology, computer science, database theory, MongoDB, MySQL, Git, and more.</p>
           </div>
           <hr />
           <div className="row">
-            <p className='title'>UCSD Bootcamp</p>
-            <p>Web Development • December 2020</p>
-            <p>Learned how to code back end and front end applications with several other usefull tools. NEED MORE</p>
+            <p className='title'>University High School</p>
+            <p>Highschool Deploma • June 2018</p>
           </div>
         </div>
       </div>
@@ -50,13 +49,13 @@ function About() {
           <div className="row">
             <p className='title'>Woodward West</p>
             <p>Assistant Skateboard Director • June 2018 - December 2019</p>
-            <p>Took leadership for campers and workers directing them what to do. Orginized events for the campers and dealt with camper problems. Delt with parents that had questions about the camp and/or their child.</p>
+            <p className='text'>Organized events, schedules for the campers and resolved camper problems. Worked with parents that had questions about camp and/or their child. Instructed skateboarding campers and focused on making their experience the best as possible pursing their love in skateboarding.</p>
           </div>
           <hr />
           <div className="row">
             <p className='title'>Pacific Event Productions</p>
             <p>Stage Hand • October 2018 - April 2020</p>
-            <p>A physical labor job to set up stages, lighting and catering for big events. Needed to take leadership at points depending the job. Worked in a wearhouse shipping things in trucks.</p>
+            <p className='text'>Worked in a team to construct and deconstruct public events. Set up stages, lighting and catering to provide the client with their needs. Loaded and unloaded trucks while fixing and organizing the products at the wearhouse.</p>
           </div>
         </div>
       </div>

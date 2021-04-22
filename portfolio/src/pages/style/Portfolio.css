@@ -1,5 +1,6 @@
 .card {
     min-height: 600px;
+    max-height: auto;
     background-color:#334A51;
     margin: 20px
 }

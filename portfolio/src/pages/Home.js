@@ -26,7 +26,7 @@ function Home() {
             <li>MomentJS</li>
             <li>VueJS</li>
             <li>Express Web Server</li>
-            <li>Google Sheets</li>
+            <li>Github</li>
         </div>
         {/* HEADER */}
         <div className='col s4'>

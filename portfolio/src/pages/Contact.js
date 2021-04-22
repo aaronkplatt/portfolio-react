@@ -145,9 +145,9 @@ function Contact() {
       </div>
           {/* Thank you message */}
           <div className="col s10 offset-s1 thankyou_message">
-            <h3>
+            <p className='thankYouText'>
               <em>Thanks</em> for contacting me! I'll get back to you soon!
-            </h3>
+            </p>
           </div>
       </form>
     </div>
