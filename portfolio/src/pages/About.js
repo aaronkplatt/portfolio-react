@@ -38,7 +38,7 @@ function About() {
           <hr />
           <div className="row">
             <p className='title'>University High School</p>
-            <p>Highschool Deploma • June 2018</p>
+            <p>Highschool Diploma • June 2018</p>
           </div>
         </div>
       </div>
@@ -49,13 +49,13 @@ function About() {
           <div className="row">
             <p className='title'>Woodward West</p>
             <p>Assistant Skateboard Director • June 2018 - December 2019</p>
-            <p className='text'>Organized events, schedules for the campers and resolved camper problems. Worked with parents that had questions about camp and/or their child. Instructed skateboarding campers and focused on making their experience the best as possible pursing their love in skateboarding.</p>
+            <p className='text'>Organized events and schedules for the campers and resolved camper problems. Worked with parents that had questions about camp and/or their child. Instructed skateboarding campers and focused on making their experience the best possible while pursuing their love of skateboarding.</p>
           </div>
           <hr />
           <div className="row">
             <p className='title'>Pacific Event Productions</p>
             <p>Stage Hand • October 2018 - April 2020</p>
-            <p className='text'>Worked in a team to construct and deconstruct public events. Set up stages, lighting and catering to provide the client with their needs. Loaded and unloaded trucks while fixing and organizing the products at the wearhouse.</p>
+            <p className='text'>Worked as part of a team to construct and deconstruct public events. Set up stages, lighting and catering to provide the client with their needs. Loaded and unloaded trucks while fixing and organizing the products at the warehouse.</p>
           </div>
         </div>
       </div>

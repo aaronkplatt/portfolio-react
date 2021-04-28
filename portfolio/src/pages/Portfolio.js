@@ -19,48 +19,8 @@ function Portfolio() {
 
       {/* ROW one*/}
       <div className='row'>
-        {/* LOCAL COFFEE SHOP LOCATOR card 1*/}
-        <div className="col s4">
-          <div className="card">
-            <h4 className="card-title">Local Coffee Shop Locator</h4>
-            <div className="card-image">
-              <img  className="images" src={LocalCoffeeShop} alt="project"/>
-            </div>
-            <div className="card-content">
-              <p>Generate locations of nearby local coffee shops and the current weather conditions for the city. Because we are displaying local coffee shops we must exclude bug brand coffee shops like starbucks.</p>
-              <hr></hr>
-              <p><em>Tools/Languages:</em> HTML5, CSS, Javascript, Bootstrap</p>
-            </div>
-            <div className="card-action">
-              <a href="https://aaronkplatt.github.io/localCoffeeShops.github.io/" className="links">Deployed</a>
-              <hr />
-              <a href="https://github.com/aaronkplatt/localCoffeeShops.github.io" className="links">Repository</a>
-            </div>
-          </div>
-        </div>
-
-        {/* COBRA ARCADE CARD 2*/}
-        <div className="col s4">
-          <div className="card">
-            <h4 className="card-title">Cobra Arcade</h4>
-            <div className="card-image">
-              <img className="images" src={CobraArcade} alt="project"/>
-            </div>
-            <div className="card-content">
-              <p>Enjoy a nostalgic trip down game history to play classic titles such as Snake, Flappy Bird, and Pong. User data is saved for highscores for each game.</p>
-              <hr></hr>
-              <p><em>Tools/Languages:</em> Sequelize, Node.JS, Express, Express Handlebars, Express Sessions, Canvas, Iframe</p>
-            </div>
-            <div className="card-action">
-              <a href="https://cobra-arcade.herokuapp.com/" className="links">Deployed</a>
-              <hr />
-              <a href="https://github.com/aaronkplatt/project-2.github.io" className="links">Repository</a>
-            </div>
-          </div>
-        </div>
-
-        {/* NOMAD WILDERNESS CARD 5 */}
-        <div className="col s4">
+         {/* NOMAD WILDERNESS CARD 5 */}
+         <div className="col s4">
           <div className="card">
             <h4 className="card-title">NOMAD WILDERNESS</h4>
             <div className="card-image">
@@ -78,6 +38,48 @@ function Portfolio() {
             </div>
           </div>
         </div>
+
+        {/* LOCAL COFFEE SHOP LOCATOR card 1*/}
+        <div className="col s4">
+          <div className="card">
+            <h4 className="card-title">COFFEE SHOP LOCATOR</h4>
+            <div className="card-image">
+              <img  className="images" src={LocalCoffeeShop} alt="project"/>
+            </div>
+            <div className="card-content">
+              <p>Generate locations of nearby local coffee shops and the current weather conditions for the city. Because we are displaying local coffee shops we must exclude big brand coffee shops like Starbucks.</p>
+              <hr></hr>
+              <p><em>Tools/Languages:</em> HTML5, CSS, Javascript, Bootstrap</p>
+            </div>
+            <div className="card-action">
+              <a href="https://aaronkplatt.github.io/localCoffeeShops.github.io/" className="links">Deployed</a>
+              <hr />
+              <a href="https://github.com/aaronkplatt/localCoffeeShops.github.io" className="links">Repository</a>
+            </div>
+          </div>
+        </div>
+
+        {/* COBRA ARCADE CARD 2*/}
+        <div className="col s4">
+          <div className="card">
+            <h4 className="card-title">COBRA ARCADE</h4>
+            <div className="card-image">
+              <img className="images" src={CobraArcade} alt="project"/>
+            </div>
+            <div className="card-content">
+              <p>Enjoy a nostalgic trip down game history to play classic titles such as Snake, Flappy Bird, and Pong. User data is saved for highscores for each game.</p>
+              <hr></hr>
+              <p><em>Tools/Languages:</em> Sequelize, Node.JS, Express, Express Handlebars, Express Sessions, Canvas, Iframe</p>
+            </div>
+            <div className="card-action">
+              <a href="https://cobra-arcade.herokuapp.com/" className="links">Deployed</a>
+              <hr />
+              <a href="https://github.com/aaronkplatt/project-2.github.io" className="links">Repository</a>
+            </div>
+          </div>
+        </div>
+
+       
       {/* row end div */}
       </div>
 
@@ -91,7 +93,7 @@ function Portfolio() {
               <img  className="images" src={Budget} alt="project"/>
             </div>
             <div className="card-content">
-              <p>As an avid traveller I want to be able to track my withdrawals and deposits with or without a data/internet connection so that my account balance is accurate when I am traveling.</p>
+              <p>As an avid traveler I want to be able to track my withdrawals and deposits with or without a data/internet connection so that my account balance is accurate and up-to-date when I am traveling.</p>
               <hr />
               <p><em>Tools/Languages:</em> React, IndexedDB, CSS, Express.js, MongoDB</p>
             </div>
@@ -111,7 +113,7 @@ function Portfolio() {
               <img  className="images" src={Burger} alt="project"/>
             </div>
             <div className="card-content">
-              <p>This program uses MySql Database to create burgers. It allows you to devour the burger by clicking th edvour button, after its saved into the devour table. 
+              <p>This program uses MySql Database to create burgers. It allows you to devour the burger by clicking the devour button, after it's saved into the devour table. 
               </p>
               <hr />
               <p><em>Tools/Languages:</em> HTML5, CSS, Javascript, MySQL, Express.js, Express Handlebars</p>
@@ -132,7 +134,7 @@ function Portfolio() {
               <img className="images" src={Tracker} alt="project"/>
             </div>
             <div className="card-content">
-              <p>As a buisness owner I want to be able to view and manage the Departments, Roles, Managers and Employees in the company so that I can organize, view, and plan buisness accordingly using MySQL.</p>
+              <p>As a business owner I want to be able to view and manage the Departments, Roles, Managers and Employees in the company so that I can organize, view, and plan business accordingly using MySQL.</p>
               <hr />
               <p><em>Tools/Languages:</em> MySQL, Express, Inquirer, Javascript, Console Table</p>
             </div>
@@ -151,12 +153,12 @@ function Portfolio() {
           {/* Team profile generator CARD 7 */}
           <div className="col s4">
             <div className="card">
-              <h4 className="card-title">TEAM PROFILE GENORATOR</h4>
+              <h4 className="card-title">TEAM PROFILE GENERATOR</h4>
               <div className="card-image">
                 <img className="images" src={Team} alt="project"/>
               </div>
               <div className="card-content">
-                <p>This project asks the user to enter information about each Employee and creates an HTML file in the folder "output" for the team putting each employee on its own card and displaying their info.</p>
+                <p>This program asks the user to enter information about each employee.  It  generates an HTML file in the folder "output" creating a card for each employee with their information and details.</p>
                 <hr />
                 <p><em>Tools/Languages:</em> Html5, Inquirer, Javascript</p>
               </div>
@@ -176,7 +178,7 @@ function Portfolio() {
                 <img  className="images" src={Surf} alt="project"/>
               </div>
               <div className="card-content">
-                <p>This single page application allows people to sign up for the Sunshine Surf Club. All of the form responses are saved onto a private Google Sheets for the client to pull data from.</p>
+                <p>This single page application allows people to sign up for the Sunshine Surfclub. All of the form responses are saved onto private Google Sheets for the client to pull data from allowing them to email the members.</p>
                 <hr />
                 <p><em>Tools/Languages:</em> HTML5, Javascript, CSS, Google Sheets</p>
               </div>
