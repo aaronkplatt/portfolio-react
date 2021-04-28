@@ -1,7 +1,7 @@
 import React from "react";
 import 'materialize-css';
 import "./style/Home.css";
-import profilePic from "../pages/images/ProfilePic.jpg";
+import profilePic from "./images/ProfilePic.jpg";
 import resume from './documents/Aaron_Platt_Final_RESUME.pdf';
 
 
